@@ -1,4 +1,4 @@
-const URL_SERVER = 'http://localhost:8000/purchase/';
+const URL_SERVER = `${process.env.REACT_APP_API_URL}/purchase/`;
 
 export const createPurchase = async (purchase) => {
     try {
