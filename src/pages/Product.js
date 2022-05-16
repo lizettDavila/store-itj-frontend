@@ -43,10 +43,8 @@ export const Product = () => {
     };
     if (id) {
       fetchProductById();
-    } else {
-      setProduct(newProduct);
-    }
-  }, [id, fetchProductById]);
+    } 
+  }, [id]);
 
   return (
       <>
