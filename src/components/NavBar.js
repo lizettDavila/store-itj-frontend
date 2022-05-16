@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useLocation, Link, NavLink } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
 import "../styles/navbar.css";
 import { FiShoppingCart } from "react-icons/fi";
 
