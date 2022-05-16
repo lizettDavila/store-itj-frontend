@@ -20,8 +20,6 @@ export const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(newProduct);
 
-
-
   const handleOnCancel = () => {
     navigate("/admin");
   };
