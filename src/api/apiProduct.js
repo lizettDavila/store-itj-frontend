@@ -1,4 +1,4 @@
-const URL_SERVER = 'http://localhost:8000/product/';
+const URL_SERVER = `${process.env.REACT_APP_API_URL}/product/`;
 
 
 export const getAllProducts = async () => {
