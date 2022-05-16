@@ -20,10 +20,7 @@ export const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(newProduct);
 
-  const fetchProductById = async () => {
-    const response = await getProductById(id);
-    setProduct(response);
-  };
+
 
   const handleOnCancel = () => {
     navigate("/admin");
@@ -40,6 +37,10 @@ export const Product = () => {
     setProduct({ ...product, [e.target.name]: e.target.value });
   };
   useEffect(() => {
+    const fetchProductById = async () => {
+      const response = await getProductById(id);
+      setProduct(response);
+    };
     if (id) {
       fetchProductById();
     } else {
