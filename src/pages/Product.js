@@ -45,7 +45,7 @@ export const Product = () => {
     } else {
       setProduct(newProduct);
     }
-  });
+  }, [id, fetchProductById]);
 
   return (
       <>
