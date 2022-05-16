@@ -11,6 +11,8 @@ function App() {
   const [productsSelected, setProductsSelected] = useState([]);
   const [productIds, setProductIds] = useState([]);
 
+  //main project logic
+
   const handleOnCount = (action) => {
     if(action === 'add') {
       setNumberOfItems(numberOfItems + 1);
