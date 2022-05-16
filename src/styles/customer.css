@@ -1,0 +1,13 @@
+.add-btn {
+    background-color: var(--green-medium-color);
+    color: var(--white-color);
+    width: 100%;
+    min-width: 130px;
+    height: auto;
+    min-height: 40px;
+    border: 1px solid var(--green-medium-color);
+    border-radius: 5px;
+    font-size: var(--fs-14);
+    font-weight: bold;
+    cursor: pointer;
+}

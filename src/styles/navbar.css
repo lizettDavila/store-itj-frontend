@@ -1,0 +1,42 @@
+.container-navbar {
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    box-shadow: 5px 2px 8px 0px rgba(0,0,0,0.65);
+    margin-bottom: 30px;
+}
+.containe-links {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.containe-links > div > a{
+    color: var(--blue-medium-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: var(--fs-14);
+    font-weight: bold;
+}
+.containe-links > div > a:hover{
+    color: var(--green-medium-color);
+}
+.cart {
+    display: flex;
+}
+.icon  {
+ font-size: 19px;
+ font-weight: bold;
+}
+.counter {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--blue-medium-color);
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
